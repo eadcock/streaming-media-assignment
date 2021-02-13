@@ -1,0 +1,30 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "7.1.0",
+    "npm": "3.10.x"
+  },
+  "description": "Assignment 3",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eadcock/streaming-media-assignment.git"
+  },
+  "author": "Eric Adcock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eadcock/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/eadcock/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
